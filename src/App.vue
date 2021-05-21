@@ -1,28 +1,39 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+   <v-btn
+   @click ="tableFunctionMethods"
+   >
+   Кнопка
+   </v-btn>
+   <div
+    v-for="item in tableFunction"
+    :key="item.id"
+   >
+   {{item.name}}
+   </div>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import tableJson from '@/table.json';
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
+  },
+  computed: {
+    tableFunction() {
+      return tableJson
+      //tableData = tableJson
+    }
+    
+  },
+  methods: {
+    tableFunctionMethods() {
+      console.log(this.tableFunction)
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

@@ -1,0 +1,92 @@
+[
+    {
+      "id": 13,
+      "published": true,
+      "name": "Check",
+      "description": "Check",
+      "image_url": "/static/images/icons/ico-check.svg",
+      "open_mode": 1,
+      "mime_type": ""
+    },
+    {
+      "id": 4,
+      "published": true,
+      "name": "CSV document",
+      "description": "CSV Document",
+      "image_url": "/static/images/icons/ico-excel.svg",
+      "open_mode": 3,
+      "mime_type": "text/csv"
+    },
+    {
+      "id": 11,
+      "published": true,
+      "name": "Date",
+      "description": "Date",
+      "image_url": "/static/images/icons/ico-date.svg",
+      "open_mode": 1,
+      "mime_type": ""
+    },
+    {
+      "id": 15,
+      "published": true,
+      "name": "Date and Time",
+      "description": "Date and Time",
+      "image_url": "/static/images/icons/ico-datetime.svg",
+      "open_mode": 1,
+      "mime_type": ""
+    },
+    {
+      "id": 3,
+      "published": true,
+      "name": "Excel document",
+      "description": "Excel Document",
+      "image_url": "/static/images/icons/ico-excel.svg",
+      "open_mode": 3,
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": 5,
+      "published": true,
+      "name": "Image",
+      "description": "Image",
+      "image_url": "/static/images/icons/ico-image.svg",
+      "open_mode": 2,
+      "mime_type": "image/*"
+    },
+    {
+      "id": 14,
+      "published": true,
+      "name": "Integer",
+      "description": "Integer",
+      "image_url": "/static/images/icons/ico-integer.svg",
+      "open_mode": 1,
+      "mime_type": ""
+    },
+    {
+      "id": 7,
+      "published": true,
+      "name": "Legal document",
+      "description": "Legal document (pdf or docx or xls or img)",
+      "image_url": "/static/images/icons/ico-legal.svg",
+      "open_mode": 4,
+      "mime_type": "image/*, application/pdf, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/msword, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": 8,
+      "published": true,
+      "name": "Money",
+      "description": "Money",
+      "image_url": "/static/images/icons/ico-money.svg",
+      "open_mode": 1,
+      "mime_type": ""
+    },
+    {
+      "id": 18,
+      "published": true,
+      "name": "Multiple Docs",
+      "description": "Multiple Docs",
+      "image_url": "/static/images/icons/ico-multiplier.svg",
+      "open_mode": 1,
+      "mime_type": ""
+    }
+  ]
